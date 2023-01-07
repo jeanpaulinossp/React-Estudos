@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import RenderProduto from "./Exercicio04/RenderProdutos";
+import ApiExercicio04 from "./Exercicio04/ApiExercicio04";
 
 // Os links abaixo puxam dados de um produto em formato JSON
 // https://ranekapi.origamid.dev/json/api/produto/tablet
@@ -16,11 +17,8 @@ const Exercicio04 = () => {
 
   async function handleClick(event) {
     setLoading(true);
-    const response = await fetch(
-      `https://ranekapi.origamid.dev/json/api/produto/${event.target.innerText}`
-    );
-    const json = await response.json();
-    setDados(json);
+    const res = await ApiExercicio04(event.target.innerText);
+    setDados(res);
     setLoading(false);
   }
 
