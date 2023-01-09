@@ -3,6 +3,7 @@ const ApiExercicio04 = async (product) => {
     `https://ranekapi.origamid.dev/json/api/produto/${product}`
   );
   const json = await response.json();
+
   return json;
 };
 
