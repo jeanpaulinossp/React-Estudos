@@ -1,5 +1,4 @@
 import React from "react";
-import Exercicio07 from "./Exercicio07";
 // import Exercicio01 from "./Exercicio01";
 // import Exercicio02 from "./Exercicio02";
 // import Exercicio03 from "./Exercicio03";
@@ -8,6 +7,8 @@ import Exercicio07 from "./Exercicio07";
 // import Exercicio06 from "./Exercicio06";
 // import { Exercicio06Storage } from "./Exercicio06/ContextExercicio06";
 // import LimparEx06 from "./Exercicio06/LimparEx06";
+// import Exercicio07 from "./Exercicio07";
+import Exercicio08 from "./Exercicio08";
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
         <Exercicio06 />
         <LimparEx06 />
       </Exercicio06Storage> */}
-      <Exercicio07 />
+      {/* <Exercicio07 /> */}
+      <Exercicio08 />
     </>
   );
 };
