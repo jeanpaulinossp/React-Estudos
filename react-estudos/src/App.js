@@ -8,7 +8,8 @@ import React from "react";
 // import { Exercicio06Storage } from "./Exercicio06/ContextExercicio06";
 // import LimparEx06 from "./Exercicio06/LimparEx06";
 // import Exercicio07 from "./Exercicio07";
-import Exercicio08 from "./Exercicio08";
+// import Exercicio08 from "./Exercicio08";
+import Exercicio09 from "./Exercicio09";
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
         <LimparEx06 />
       </Exercicio06Storage> */}
       {/* <Exercicio07 /> */}
-      <Exercicio08 />
+      {/* <Exercicio08 /> */}
+      <Exercicio09 />
     </>
   );
 };
