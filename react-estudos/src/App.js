@@ -9,9 +9,25 @@ import React from "react";
 // import LimparEx06 from "./Exercicio06/LimparEx06";
 // import Exercicio07 from "./Exercicio07";
 // import Exercicio08 from "./Exercicio08";
-import Exercicio09 from "./Exercicio09";
+// import Exercicio09 from "./Exercicio09";
+import Exercicio10 from "./Exercicio10";
 
 const App = () => {
+  const slides = [
+    {
+      id: "slide1",
+      text: "Slide1",
+    },
+    {
+      id: "slide2",
+      text: "Slide2",
+    },
+    {
+      id: "slide3",
+      text: "Slide3",
+    },
+  ];
+
   return (
     <>
       {/* <Exercicio01 /> */}
@@ -25,7 +41,8 @@ const App = () => {
       </Exercicio06Storage> */}
       {/* <Exercicio07 /> */}
       {/* <Exercicio08 /> */}
-      <Exercicio09 />
+      {/* <Exercicio09 /> */}
+      <Exercicio10 slides={slides} />
     </>
   );
 };

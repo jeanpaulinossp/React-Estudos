@@ -7,6 +7,7 @@
 
 import React, { useEffect, useState } from "react";
 import ProductEx05 from "./Exercicio05/ProductEx05";
+import "./style/style.css";
 
 const Exercicio05 = () => {
   const [produto, setProduto] = useState(null);

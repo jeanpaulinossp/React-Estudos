@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./style/style.css";
 const coresArray = ["azul", "roxo", "laranja", "verde", "vermelho", "cinza"];
 
 const Exercicio08 = () => {

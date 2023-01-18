@@ -7,6 +7,7 @@
 
 import React, { useContext } from "react";
 import { ContextExercicio06 } from "./Exercicio06/ContextExercicio06";
+import "./style/style.css";
 
 const Exercicio06 = () => {
   const global = useContext(ContextExercicio06);

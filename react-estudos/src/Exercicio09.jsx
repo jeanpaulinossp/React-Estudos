@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import RadioEx09 from "./Exercicio09/RadioEx09";
+import "./style/style.css";
 
 const perguntas = [
   {

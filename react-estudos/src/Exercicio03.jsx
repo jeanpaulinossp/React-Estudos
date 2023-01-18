@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Exercicio03/Home";
 import Produtos from "./Exercicio03/Produtos";
+import "./style/style.css";
 
 const { pathname } = window.location;
 

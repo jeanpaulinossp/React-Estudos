@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RenderProduto from "./Exercicio04/RenderProdutos";
 import ApiExercicio04 from "./Exercicio04/ApiExercicio04";
+import "./style/style.css";
 
 // Os links abaixo puxam dados de um produto em formato JSON
 // https://ranekapi.origamid.dev/json/api/produto/tablet

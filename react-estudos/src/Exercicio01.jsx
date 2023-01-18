@@ -1,3 +1,5 @@
+import "./style/style.css";
+
 export default function Exercicio01() {
   // Mostre os dados da aplicação, como aprensetado no vídeo
   // Não utilize CSS externo, use o style para mudar as cores

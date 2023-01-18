@@ -6,6 +6,7 @@
 import React, { useState } from "react";
 import { Form } from "./Exercicio07/Form";
 import apiExercicio07 from "./Exercicio07/ApiExercicio07";
+import "./style/style.css";
 
 const Exercicio07 = () => {
   const [form, setForm] = useState(
