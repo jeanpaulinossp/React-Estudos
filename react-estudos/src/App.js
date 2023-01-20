@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Exercicio01 from "./Exercicio01";
 // import Exercicio02 from "./Exercicio02";
 // import Exercicio03 from "./Exercicio03";
@@ -12,26 +11,26 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Exercicio08 from "./Exercicio08";
 // import Exercicio09 from "./Exercicio09";
 // import Exercicio10 from "./Exercicio10";
+import Exercicio11 from "./Exercicio11";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        {/* <Exercicio01 /> */}
-        {/* <Exercicio02 /> */}
-        {/* <Exercicio03 /> */}
-        {/* <Exercicio04 /> */}
-        {/* <Exercicio05 /> */}
-        {/* <Exercicio06Storage>
+    <>
+      {/* <Exercicio01 /> */}
+      {/* <Exercicio02 /> */}
+      {/* <Exercicio03 /> */}
+      {/* <Exercicio04 /> */}
+      {/* <Exercicio05 /> */}
+      {/* <Exercicio06Storage>
         <Exercicio06 />
         <LimparEx06 />
       </Exercicio06Storage> */}
-        {/* <Exercicio07 /> */}
-        {/* <Exercicio08 /> */}
-        {/* <Exercicio09 /> */}
-        {/* <Exercicio10 /> */}
-      </Routes>
-    </BrowserRouter>
+      {/* <Exercicio07 /> */}
+      {/* <Exercicio08 /> */}
+      {/* <Exercicio09 /> */}
+      {/* <Exercicio10 /> */}
+      <Exercicio11 />
+    </>
   );
 };
 
