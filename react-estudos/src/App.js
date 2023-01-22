@@ -1,4 +1,5 @@
 import React from "react";
+import "./style/style.css";
 // import Exercicio01 from "./Exercicio01";
 // import Exercicio02 from "./Exercicio02";
 // import Exercicio03 from "./Exercicio03";
@@ -12,7 +13,6 @@ import React from "react";
 // import Exercicio09 from "./Exercicio09";
 // import Exercicio10 from "./Exercicio10";
 import Exercicio11 from "./Exercicio11";
-import "./style/style.css";
 
 const App = () => {
   return (
