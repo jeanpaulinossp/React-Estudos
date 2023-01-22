@@ -12,6 +12,7 @@ import React from "react";
 // import Exercicio09 from "./Exercicio09";
 // import Exercicio10 from "./Exercicio10";
 import Exercicio11 from "./Exercicio11";
+import "./style/style.css";
 
 const App = () => {
   return (

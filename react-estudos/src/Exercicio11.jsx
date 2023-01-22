@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Ex011Footer from "./Exercicio11/Ex011Footer";
 import Ex011Header from "./Exercicio11/Ex011Header";
 import Ex011Produtos from "./Exercicio11/Ex011Produtos";
+import Ex011Contato from "./Exercicio11/Ex011Contato";
 
 // Utilize a API abaixo para puxar a lista de produto
 // https://ranekapi.origamid.dev/json/api/produto
@@ -11,13 +12,19 @@ import Ex011Produtos from "./Exercicio11/Ex011Produtos";
 
 const Exercicio11 = () => {
   return (
-    <BrowserRouter>
-      <Ex011Header />
-      <Routes>
-        <Route path="/" element={<Ex011Produtos />} />
-      </Routes>
-      <Ex011Footer />
-    </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <Ex011Header />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Ex011Produtos />} />
+            <Route path="contato" element={<Ex011Contato />} />
+          </Routes>
+        </div>
+
+        <Ex011Footer />
+      </BrowserRouter>
+    </div>
   );
 };
 
